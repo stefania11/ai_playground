@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ai_playground_families-/static/css/main.a294ce11.chunk.css",
+    "main.js": "/ai_playground_families-/static/js/main.d2f090c5.chunk.js",
+    "main.js.map": "/ai_playground_families-/static/js/main.d2f090c5.chunk.js.map",
+    "runtime-main.js": "/ai_playground_families-/static/js/runtime-main.52315452.js",
+    "runtime-main.js.map": "/ai_playground_families-/static/js/runtime-main.52315452.js.map",
+    "static/js/2.ae78879d.chunk.js": "/ai_playground_families-/static/js/2.ae78879d.chunk.js",
+    "static/js/2.ae78879d.chunk.js.map": "/ai_playground_families-/static/js/2.ae78879d.chunk.js.map",
+    "static/js/3.58ce5791.chunk.js": "/ai_playground_families-/static/js/3.58ce5791.chunk.js",
+    "static/js/3.58ce5791.chunk.js.map": "/ai_playground_families-/static/js/3.58ce5791.chunk.js.map",
+    "index.html": "/ai_playground_families-/index.html",
+    "static/css/main.a294ce11.chunk.css.map": "/ai_playground_families-/static/css/main.a294ce11.chunk.css.map",
+    "static/js/2.ae78879d.chunk.js.LICENSE.txt": "/ai_playground_families-/static/js/2.ae78879d.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/ai_playground_families-/static/media/homepageBg.e7cf7705.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52315452.js",
+    "static/js/2.ae78879d.chunk.js",
+    "static/css/main.a294ce11.chunk.css",
+    "static/js/main.d2f090c5.chunk.js"
+  ]
+}
