@@ -16,14 +16,8 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
   },
   "scripts": {
     "start": "react-scripts start",
