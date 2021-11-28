@@ -7,7 +7,7 @@ export function NavBar() {
                     <button type="button" className="btn btn-light" id="pbBtn">{"Playbooks"}</button>
                     <button type="button" className="btn btn-warning" id="createProfBtn">{"Create Profile"}</button>
                 </div>
-                <img src="ai_playground/image/avatarMonkey.jpeg" alt="User avatar" className="pd-2 border"></img>
+                <img src="/ai_playground/image/avatarMonkey.jpeg" alt="User avatar" className="pd-2 border"></img>
             </div>
         </header>
     );
