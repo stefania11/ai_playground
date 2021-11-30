@@ -12,6 +12,7 @@ export function Welcome() {
             </div>
                 <img src="/ai_playground/image/hpSide1.png" alt="A robot" className="homepageSide1 col-3"></img>
             </div>
+            {/* example PR */}
       </div>
     );
 }
