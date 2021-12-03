@@ -4,7 +4,7 @@ import { Welcome } from './Welcome';
 import { ActivityFilter } from './ActivityFilter';
 import { ActivityList } from './ActivityList'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <NavBar />
         </div>
         <Routes>
-          <Route path="/" element = {
+          <Route exact path="/" element = {
             <section className="homepage">
               <Welcome />
               <div className="explorTab">
@@ -28,7 +28,7 @@ function App() {
             </section>
           }/>
             
-          <Route exact path="/Activity" element = {
+          <Route path="/Activity" element = {
             <div>
               <ActivityFilter />
               <ActivityList />
