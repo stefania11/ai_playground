@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 export function NavBar() {
     return (
         <header className="App-header">
@@ -7,7 +10,9 @@ export function NavBar() {
                     <button type="button" className="btn btn-light" id="pbBtn">{"Playbooks"}</button>
                     <button type="button" className="btn btn-warning" id="createProfBtn">{"Create Profile"}</button>
                 </div>
+                <Link to='/'>
                 <img src="/image/avatar.jpeg" alt="User avatar" className="pd-2 border"></img>
+                </Link>
             </div>
         </header>
     );
