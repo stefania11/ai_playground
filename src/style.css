@@ -181,3 +181,7 @@ section.activityList div.activity img {
 section.activityList div.activityContent{
   text-align: center;
 }
+
+section.activityList div.activity div.d-flex {
+  margin-bottom: 4rem;
+}
