@@ -10,12 +10,13 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <div>
+        {/* <div>
         <NavBar />
-        </div>
+        </div> */}
         <Routes>
           <Route exact path="/" element = {
             <section className="homepage">
+              <NavBar />
               <Welcome />
               <div className="explorTab">
                 <p>{"Explore Activities"}</p>
