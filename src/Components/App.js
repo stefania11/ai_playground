@@ -3,6 +3,7 @@ import { NavBar } from './Navigation';
 import { Welcome } from './Welcome';
 import { ActivityFilter } from './ActivityFilter';
 import { ActivityList } from './ActivityList'
+import { ActivityPage } from './ActivityPage'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
@@ -35,6 +36,12 @@ function App() {
               <ActivityList />
             </div>
           }/>
+
+          <Route path="/Activity/ObjectDetection" element={
+            <div>
+              <ActivityPage />
+            </div>
+          } />
             
           </Routes>
       </BrowserRouter>

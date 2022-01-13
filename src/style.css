@@ -156,8 +156,6 @@ section.homepage {
   background-image: url("hpBackground.png");
 }
 
-
-
 section.activityList div.activity {
   margin-left: 3rem;
 }
@@ -167,10 +165,6 @@ section.activityList div.activity {
   margin-right: 8rem;
   margin-top: 10rem;
 }
-
-/* section.activityList div.activity div.activityContent h2{
-  text-align: center;
-} */
 
 section.activityList div.activity img {
     display:block;
@@ -185,3 +179,151 @@ section.activityList div.activityContent{
 section.activityList div.activity div.d-flex {
   margin-bottom: 4rem;
 }
+
+/* --Individual Activity Page-- */
+
+/* --Intro Section-- */
+
+section.activityPage div.activityTextSection {
+  margin-top: 14rem;
+  margin-right: 10rem;
+}
+
+section.activityPage div.activityTextSection p {
+  margin-bottom: 0rem;
+}
+
+section.activityPage img.activityPage {
+  max-width: 100%;
+  min-width: 50%;
+  margin-top: 12rem;
+  border-radius: 50%;
+}
+
+section.activityPage div.d-flex {
+  margin-left: 10rem;
+}
+
+section.activityPage div.d-flex {
+  justify-content: space-between;
+}
+
+section.activityPage {
+  margin-bottom: 2rem;
+}
+
+section.activityPage div.activity {
+  margin-left: 3rem;
+}
+
+section.activityPage div.activity {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 10rem;
+}
+
+section.activityPage div.activity img {
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+}
+
+section.activityPage div.activityContent{
+  text-align: center;
+}
+
+section.activityPage div.activity div.d-flex {
+  margin-bottom: 4rem;
+}
+
+img.actDesImg {
+  height: 55px;
+  width: 56px;
+}
+
+section.activityPage div.activityTextSection div.d-flex p {
+  margin-top: 1rem;
+}
+
+section.activityPage div.activityTextSection div.d-flex{
+  margin-left: 0rem;
+}
+
+.btn-modify {
+      background-color: #dddddd;
+      color: #868686;
+      border-color: #868686;
+}
+
+.btn-playground {
+  background-color: #fcefd0 !important;
+}
+
+.activityPage button {
+  margin: 15px 8px;
+}
+
+/* --Explore Section-- */
+
+div.exploreAct {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 10rem;
+}
+
+div.exploreAct img {
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+div.activityContent{
+  text-align: center;
+}
+
+div.exploreAct div.d-flex {
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* --Learning Material Section-- */
+
+div.learningMat {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 10rem;
+}
+
+div.learningMat img {
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+div.activityContent{
+  text-align: center;
+}
+
+div.learningMat div.d-flex {
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* --Comment Section-- */
+
+div.comment div.d-flex{
+  text-align: center;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+div.comHis {
+  text-align: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+

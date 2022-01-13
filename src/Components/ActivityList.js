@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export function ActivityList() {
     return (
@@ -25,7 +26,9 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
+                                <Link to='/Activity/ObjectDetection'>
                                 <button type="button" className="btn">{"Play Game"}</button>
+                                </Link>
                             </div>
                         </div>
 
