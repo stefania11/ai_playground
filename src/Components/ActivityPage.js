@@ -16,30 +16,36 @@ export function ActivityPage(props) {
                             <br></br>
                             <div>
                                 <hr></hr>
-                                <div className="d-flex justify-content-start">
-                                    <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
-                                    <p style={{ color: 'grey' }}>{"Easy"} </p>
+                                <div className="d-flex justify-content-around">
+                                    <div className="d-flex justify-content-start">
+                                        <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <p style={{ color: 'grey' }}>{"Easy"} </p>
+                                    </div>
+                                    <div className="d-flex justify-content-start">
+                                        <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
+                                        <p style={{ color: 'grey' }}>{"All"} </p>
+                                    </div>
                                 </div>
                                 <hr></hr>
-                                <div className="d-flex justify-content-start">
-                                    <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
-                                    <p style={{ color: 'grey' }}>{"All"} </p>
+                                <div className="d-flex justify-content-around">
+                                    <div className="d-flex justify-content-start">
+                                        <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
+                                        <p style={{ color: 'grey' }}>{"10-15min"} </p>
+                                    </div>
+                                    <div className="d-flex justify-content-start">
+                                        <img src="/image/apBadge.png" alt="Badges" className="actDesImg"></img>
+                                        <p style={{ color: 'grey' }}>{"Star Badge"} </p>
+                                    </div>
                                 </div>
                                 <hr></hr>
-                                <div className="d-flex justify-content-start">
-                                    <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
-                                    <p style={{ color: 'grey' }}>{"10-15min"} </p>
+                                {/* <div className="d-flex justify-content-start">
+                                    
                                 </div>
-                                <hr></hr>
-                                <div className="d-flex justify-content-start">
-                                    <img src="/image/apBadge.png" alt="Badges" className="actDesImg"></img>
-                                    <p style={{ color: 'grey' }}>{"Star Badge"} </p>
-                                </div>
-                                <hr></hr>
+                                <hr></hr> */}
                                 <div className="flex-row justify-content-between">
-                                    <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Play Game"}</button>
-                                    <button type="button" className="btn btn-modify" id="modifyBtn">{"Modify Game"}</button>
-                                    <button type="button" className="btn btn-light bg-white border-dark" id="starBtn">{"Star Game"}</button>
+                                    <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try it!"}</button>
+                                    {/* <button type="button" className="btn btn-modify" id="modifyBtn">{"Modify Game"}</button> */}
+                                    <button type="button" className="btn btn-light bg-white border-dark" id="starBtn">{"Activity Printout"}</button>
                                 </div>
                             </div>
                         </div>
@@ -97,12 +103,16 @@ export function ActivityPage(props) {
                 <div className='d-flex flex-row justify-content-center'>
                     <div className='d-flex flex-column'>
                         <h2>{"Share Your Ideas"}</h2>
-                        <textarea rows="10" cols="80"></textarea>
+                        {/* <textarea rows="10" cols="80"></textarea> */}
                         <br></br>
                         <div>
-                            <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Comment"}</button>
+                            <a href={'https://www.google.com/'}>
+                                <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
+                            </a>
                         </div>
-                        <div className='comHis'>
+                        <br></br>
+                        <p>{"(The above button is a place holder; it actually links to Google)"}</p>
+                        {/* <div className='comHis'>
                             <hr></hr>
                             <div className="d-flex justify-content-start">
                                 <hr></hr>
@@ -111,12 +121,12 @@ export function ActivityPage(props) {
                                 <p>{"Share your thoughts, ideas, and any suggestions about the game...oad these items....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
                             </div>
                             <hr></hr>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
 
-            <div className='exploreAct'>
+            {/* <div className='exploreAct'>
                 <hr></hr>
                 <h2>{"Explore Activities"}</h2>
                 <p>{"To further explore check out these activities...."} </p>
@@ -168,7 +178,7 @@ export function ActivityPage(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
 
     );

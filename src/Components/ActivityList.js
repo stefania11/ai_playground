@@ -27,7 +27,7 @@ export function ActivityList() {
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
                                 <Link to='/Activity/ObjectDetection'>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                                 </Link>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -83,7 +83,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -94,7 +94,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -105,7 +105,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -138,7 +138,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -149,7 +149,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -160,7 +160,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -196,7 +196,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -207,7 +207,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
@@ -218,7 +218,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Play Game"}</button>
+                                <button type="button" className="btn">{"Instructions"}</button>
                             </div>
                         </div>
 
