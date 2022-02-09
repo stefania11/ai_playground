@@ -38,7 +38,7 @@ export function ActivityFilter() {
                         </ul>
                     </div>
 
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                         <button className="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                             {"Age Rangeㅤ"}
                         </button>
@@ -58,7 +58,7 @@ export function ActivityFilter() {
                             <li><button className="dropdown-item" type="button">{"Rating rang 2"}</button></li>
                             <li><button className="dropdown-item" type="button">{"Rating rang 3"}</button></li>
                         </ul>
-                    </div>
+                    </div> */}
 
 
                 </div>
