@@ -1,6 +1,22 @@
 import React from 'react';
 import 'bootstrap/js/dist/dropdown';
 
+function handleBackClickImg() {
+    document.getElementById('imageClassification').scrollIntoView({ behavior: 'smooth' })
+}
+
+function handleBackClickML() {
+    document.getElementById('machineLearning').scrollIntoView({ behavior: 'smooth' })
+}
+
+function handleBackClickInteract() {
+    document.getElementById('interactiveCoding').scrollIntoView({ behavior: 'smooth' })
+}
+
+function handleBackClickVoice() {
+    document.getElementById('voiceAssistants').scrollIntoView({ behavior: 'smooth' })
+}
+
 export function ActivityFilter() {
     return (
         <section className="allActivitiesPage">
@@ -15,10 +31,10 @@ export function ActivityFilter() {
                             {"Categoriesㅤ"}
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <li><button className="dropdown-item" type="button">{"Image Classification"}</button></li>
-                            <li><button className="dropdown-item" type="button">{"Machine Learning"}</button></li>
-                            <li><button className="dropdown-item" type="button">{"Interactive Coding"}</button></li>
-                            <li><button className="dropdown-item" type="button">{"Voice Assistant"}</button></li>
+                            <li><button className="dropdown-item" type="button" onClick={handleBackClickImg}>{"Image Classification"}</button></li>
+                            <li><button className="dropdown-item" type="button" onClick={handleBackClickML}>{"Machine Learning"}</button></li>
+                            <li><button className="dropdown-item" type="button" onClick={handleBackClickInteract}>{"Interactive Coding"}</button></li>
+                            <li><button className="dropdown-item" type="button" onClick={handleBackClickVoice}>{"Voice Assistant"}</button></li>
                         </ul>
                     </div>
 

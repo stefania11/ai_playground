@@ -137,6 +137,11 @@ section.imageClassification {
   margin-bottom: 2rem;
 }
 
+section.innerImageClassification {
+  background-image: url("innerActBackgroundY.png");
+  margin-bottom: 2rem;
+}
+
 section.machineLearning {
   background-image: url("actBackgroundB.png");
   margin-bottom: 2rem;

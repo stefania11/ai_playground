@@ -5,7 +5,7 @@ export function ActivityList() {
     return (
         <div>
             <section className="activityList">
-                <section className="imageClassification">
+                <section className="imageClassification" id="imageClassification">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Image Classification"}</h2>
@@ -61,7 +61,7 @@ export function ActivityList() {
             </section>
 
             <section className="activityList">
-                <section className="machineLearning">
+                <section className="machineLearning" id="machineLearning">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Machine Learning"}</h2>
@@ -117,7 +117,7 @@ export function ActivityList() {
 
 
             <section className="activityList">
-                <section className="interactiveCoding">
+                <section className="interactiveCoding" id="interactiveCoding">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Interactive Coding"}</h2>
@@ -175,7 +175,7 @@ export function ActivityList() {
 
 
             <section className="activityList">
-                <section className="voiceAssistants">
+                <section className="voiceAssistants" id="voiceAssistants">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Voice Assistants"}</h2>

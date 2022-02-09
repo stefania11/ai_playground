@@ -4,7 +4,7 @@ export function ActivityPage(props) {
     return (
         <div>
             <section className="activityPage">
-                <section className="imageClassification">
+                <section className="innerImageClassification">
                     <div className="d-flex">
                         <div className="image">
                             <img src="/image/apICDog.png" alt="Object detection of a dog" className="activityPage"></img>
@@ -112,6 +112,9 @@ export function ActivityPage(props) {
                         </div>
                         <br></br>
                         <p>{"(The above button is a place holder; it actually links to Google)"}</p>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                         {/* <div className='comHis'>
                             <hr></hr>
                             <div className="d-flex justify-content-start">
