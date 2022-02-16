@@ -21,13 +21,13 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/apICDog.jpg" alt="Object detection of a dog" className="activityPage-IC-dog"></img>
+                                <img src="/image/apICCoral.png" alt="Object detection of Corals" className="activityPage-IC-Coral"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Object Detection"}</h2>
-                                <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <Link to='/Activity/ObjectDetection'>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <h2>{"Coral Learning Activity"}</h2>
+                                <p>{"Image classification game for kids"}</p>
+                                <Link to='/Activity/Coral'>
+                                <button type="button" className="btn">{"View More"}</button>
                                 </Link>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
                                 <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -78,12 +78,14 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/apMLCat.png" alt="Generation of Cats from drawings" className="activityPage-ML-cat"></img>
+                                <img src="/image/HomePage_scavengerHunt.png" alt="Scavenger Hunt" className="activityPage-ML-Scavenger"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Machine Learning"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <h2>{"Scavenger Hunt"}</h2>
+                                <p>{"Machine Learning game for kids"}</p>
+                                <Link to='/Activity/ScavengerHunt'>
+                                <button type="button" className="btn">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -94,7 +96,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -105,7 +107,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -133,12 +135,14 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankPink.png" alt="NA" className="NA"></img>
+                                <img src="/image/HomePage_analyzeAi.png" alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Interactive Coding"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <h2>{"Design & Analyze AI"}</h2>
+                                <p>{"Interactive coding game for kids"}</p>
+                                <Link to='/Activity/DesignAnalyzeAI'>
+                                <button type="button" className="btn">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -149,7 +153,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -160,7 +164,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -191,12 +195,14 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankGreen.png" alt="NA" className="NA"></img>
+                                <img src="/image/HomePage_askAi.png" alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Voice Assistants"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <h2>{"Ask AI"}</h2>
+                                <p>{"Voice Assistants AI game for kids"}</p>
+                                <Link to='/Activity/AskAI'>
+                                <button type="button" className="btn">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -207,7 +213,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 
@@ -218,7 +224,7 @@ export function ActivityList() {
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
                                 <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"Instructions"}</button>
+                                <button type="button" className="btn">{"View More"}</button>
                             </div>
                         </div>
 

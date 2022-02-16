@@ -142,6 +142,21 @@ section.innerImageClassification {
   margin-bottom: 2rem;
 }
 
+section.innerMachineLearning {
+  background-image: url("innerActBackgroundB.png");
+  margin-bottom: 2rem;
+}
+
+section.innerInteractiveCoding {
+  background-image: url("innerActBackgroundP.png");
+  margin-bottom: 2rem;
+}
+
+section.innerVoiceAssistants {
+  background-image: url("innerActBackgroundG.png");
+  margin-bottom: 2rem;
+}
+
 section.machineLearning {
   background-image: url("actBackgroundB.png");
   margin-bottom: 2rem;
@@ -175,6 +190,8 @@ section.activityList div.activity img {
     display:block;
     margin:auto;
     border-radius: 50%;
+    height: 307px;
+    width: 307px;
 }
 
 section.activityList div.activityContent{
@@ -306,6 +323,7 @@ div.learningMat img {
     margin:auto;
     border-radius: 50%;
     max-width: 100%;
+    width: 307px;
 }
 
 div.activityContent{
