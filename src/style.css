@@ -133,47 +133,47 @@ section.activityList {
 }
 
 section.imageClassification {
-  background-image: url("actBackgroundY.png");
+  background-image: url("images/actBackgroundY.png");
   margin-bottom: 2rem;
 }
 
 section.innerImageClassification {
-  background-image: url("innerActBackgroundY.png");
+  background-image: url("images/innerActBackgroundY.png");
   margin-bottom: 2rem;
 }
 
 section.innerMachineLearning {
-  background-image: url("innerActBackgroundB.png");
+  background-image: url("images/innerActBackgroundB.png");
   margin-bottom: 2rem;
 }
 
 section.innerInteractiveCoding {
-  background-image: url("innerActBackgroundP.png");
+  background-image: url("images/innerActBackgroundP.png");
   margin-bottom: 2rem;
 }
 
 section.innerVoiceAssistants {
-  background-image: url("innerActBackgroundG.png");
+  background-image: url("images/innerActBackgroundG.png");
   margin-bottom: 2rem;
 }
 
 section.machineLearning {
-  background-image: url("actBackgroundB.png");
+  background-image: url("images/actBackgroundB.png");
   margin-bottom: 2rem;
 }
 
 section.voiceAssistants {
-  background-image: url("actBackgroundG.png");
+  background-image: url("images/actBackgroundG.png");
   margin-bottom: 2rem;
 }
 
 section.interactiveCoding {
-  background-image: url("actBackgroundP.png");
+  background-image: url("images/actBackgroundP.png");
   margin-bottom: 2rem;
 }
 
 section.homepage {
-  background-image: url("hpBackground.png");
+  background-image: url("images/hpBackground.png");
 }
 
 section.activityList div.activity {
@@ -186,6 +186,7 @@ section.activityList div.activity {
   margin-top: 10rem;
 }
 
+/* size of circlesin list activity */
 section.activityList div.activity img {
     display:block;
     margin:auto;
@@ -257,7 +258,7 @@ section.activityPage div.activityContent{
 section.activityPage div.activity div.d-flex {
   margin-bottom: 4rem;
 }
-
+/* the activity description image. Those “age”, “time”, and “difficulty” icons */
 img.actDesImg {
   height: 55px;
   width: 56px;
@@ -349,4 +350,3 @@ div.comHis {
   margin-left: 12rem;
   margin-right: 12rem;
 }
-

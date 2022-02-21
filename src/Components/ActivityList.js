@@ -65,7 +65,7 @@ export function ActivityList() {
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Machine Learning"}</h2>
-                            <p>{"This category is about....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
+                            <p>{"Updated here"}</p>
                         </div>
                         <div className="image">
                             <img src="/image/hpCat.png" alt="Machine Learning" className="activityPage"></img>
@@ -238,4 +238,3 @@ export function ActivityList() {
     );
 
 }
-
