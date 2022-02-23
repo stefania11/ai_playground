@@ -11,43 +11,33 @@ export function ActivityPageCoral(props) {
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Coral Learning Activity"}</h2>
-                            <p>{"The pix2pix model works by training paired images, and tries to generate a corresponding output image from any input image children provide. Children can draw the image on the left side, and coppersponding picture will be produced based on the input. "} </p>
+                            <p>{"In this activity, family will play two games together and learn how to classify and sumarise different images of corals"} </p>
                             <br></br>
                             <div>
                                 <hr></hr>
                                 <div className="d-flex justify-content-around">
                                     <div className="d-flex justify-content-start">
-                                        <img src="/public/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apDiff.png"} alt="Difficulty" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Easy"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apAge.png"} alt="Age Group" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Ages 10-15"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apTime.png"} alt="Time" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"20-30min"} </p>
                                     </div>
                                 </div>
                                 <hr></hr>
                                 <br></br>
                                 <br></br>
-                                {/* <div className="d-flex justify-content-around">
-                                    <div className="d-flex justify-content-start">
-                                        <img src="/image/apBadge.png" alt="Badges" className="actDesImg"></img>
-                                        <p style={{ color: 'grey' }}>{"Star Badge"} </p>
-                                    </div>
-                                </div>
-                                <hr></hr> */}
-                                {/* <div className="d-flex justify-content-start">
-                                </div>
-                                <hr></hr> */}
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://coralandtest.herokuapp.com/'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try Classification"}</button>
+                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Classify Game"}</button>
                                     </a>
                                     <a href={'https://coralandanchor.herokuapp.com/'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try Anchor"}</button>
+                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Anchor Game"}</button>
                                     </a>
                                     {/* <button type="button" className="btn btn-modify" id="modifyBtn">{"Modify Game"}</button> */}
                                     {/* <button type="button" className="btn btn-light bg-white border-dark" id="starBtn">{"Activity Printout"}</button> */}
@@ -68,13 +58,13 @@ export function ActivityPageCoral(props) {
                             <img src={process.env.PUBLIC_URL +"/image/CoralPrep.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Preparation Instruction"} </p>
+                            <p style={{ color: 'grey' }}>{"Family Playbook"}</p>
                         </div>
                     </div>
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/CoralAnchor.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/CoralAnchor.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Anchor Instruction"} </p>
@@ -83,7 +73,7 @@ export function ActivityPageCoral(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/CoralClas.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/CoralClas.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Classfication Instruction"} </p>
@@ -92,11 +82,11 @@ export function ActivityPageCoral(props) {
 
                     <div className="d-flex flex-column col-5">
                         <h2>{"Learning Materials"}</h2>
-                        <p>{"Printouts for this activity design"} </p>
+                        <p>{"Playbook & instructions for this activity"} </p>
                         <br></br>
                         <div>
                             <a href={'https://docs.google.com/presentation/d/1tvyBCk8xiLA3IBuW0q7cBTICYWzdlyz-cuaCPHPpLhw/edit#slide=id.p'}>
-                                <button type="button" className="btn btn-light bg-white border-dark" id="downloadBtn">{"Download"}</button>
+                            <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Explore"}</button>
                             </a>
                         </div>
                     </div>
@@ -110,12 +100,12 @@ export function ActivityPageCoral(props) {
                         {/* <textarea rows="10" cols="80"></textarea> */}
                         <br></br>
                         <div>
-                            <a href={'https://www.google.com/'}>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
                                 <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
                         <br></br>
-                        <p>{"(The above button is a place holder; it actually links to Google)"}</p>
+
                         <br></br>
                         <br></br>
                         <br></br>
@@ -199,7 +189,7 @@ export function ActivityPageScavenger(props) {
                 <section className="innerMachineLearning">
                     <div className="d-flex">
                         <div className="image">
-                            <img src="/image/GamePage__scavengerHunt.png" alt="Scavenger Hunt" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/GamePage__scavengerHunt.png"} alt="Scavenger Hunt" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Scavenger Hunt"}</h2>
@@ -209,15 +199,15 @@ export function ActivityPageScavenger(props) {
                                 <hr></hr>
                                 <div className="d-flex justify-content-around">
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apDiff.png"} alt="Difficulty" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Moderate"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apAge.png"} alt="Age Group" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Ages 10-16"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apTime.png"} alt="Time" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"10-15min"} </p>
                                     </div>
                                 </div>
@@ -245,7 +235,7 @@ export function ActivityPageScavenger(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_scavengerHunt_1.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_1.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Activity Introduction"} </p>
@@ -254,7 +244,7 @@ export function ActivityPageScavenger(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_scavengerHunt_2.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Activity Instruction"} </p>
@@ -263,7 +253,7 @@ export function ActivityPageScavenger(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_scavengerHunt_3.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Activity Demostration"} </p>
@@ -294,7 +284,7 @@ export function ActivityPageScavenger(props) {
                             </a>
                         </div>
                         <br></br>
-                        <p>{"(The above button is a place holder; it actually links to Google)"}</p>
+                        {/* <p>{"(The above button is a place holder; it actually links to Google)"}</p> */}
                         <br></br>
                         <br></br>
                         <br></br>
@@ -313,7 +303,7 @@ export function ActivityPageDesign(props) {
                 <section className="innerInteractiveCoding">
                     <div className="d-flex">
                         <div className="image">
-                            <img src="/image/GamePage_analyzeAi.png" alt="Design and Analyze AI" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/GamePage_analyzeAi.png"} alt="Design and Analyze AI" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Design & Analyze AI"}</h2>
@@ -323,7 +313,7 @@ export function ActivityPageDesign(props) {
                                 <hr></hr>
                                 <div className="d-flex justify-content-around">
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apDiff.png"} alt="Difficulty" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Easy"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
@@ -365,7 +355,7 @@ export function ActivityPageDesign(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_analyzeAi_2.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_analyzeAi_2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Analyze AI Worksheet"} </p>
@@ -374,7 +364,7 @@ export function ActivityPageDesign(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_analyzeAi_3.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_analyzeAi_3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Design AI Worksheet"} </p>
@@ -424,7 +414,7 @@ export function ActivityPageAsk(props) {
                 <section className="innerVoiceAssistants">
                     <div className="d-flex">
                         <div className="image">
-                            <img src="/image/GamePage_askAI.png" alt="Ask AI" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/GamePage_askAI.png"} alt="Ask AI" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Ask AI"}</h2>
@@ -434,15 +424,15 @@ export function ActivityPageAsk(props) {
                                 <hr></hr>
                                 <div className="d-flex justify-content-around">
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apDiff.png"} alt="Difficulty" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Easy"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apAge.png"} alt="Age Group" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Ages 6-16"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apTime.png"} alt="Time" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"25-35min"} </p>
                                     </div>
                                 </div>
@@ -467,7 +457,7 @@ export function ActivityPageAsk(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_askAi_1.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_askAi_1.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Activity Worksheet"} </p>
@@ -476,7 +466,7 @@ export function ActivityPageAsk(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_askAi_2.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_askAi_2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Question Sheet"} </p>
@@ -485,7 +475,7 @@ export function ActivityPageAsk(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_askAi_3.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/LM_askAi_3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Question Sheet"} </p>
@@ -516,7 +506,6 @@ export function ActivityPageAsk(props) {
                             </a>
                         </div>
                         <br></br>
-                        <p>{"(The above button is a place holder; it actually links to Google)"}</p>
                         <br></br>
                         <br></br>
                         <br></br>
