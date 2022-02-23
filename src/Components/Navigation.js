@@ -13,9 +13,9 @@ export function NavBar() {
                     <button type="button" className="btn btn-warning" id="createProfBtn">{"Explore Activities"}</button>
                     </Link>
                 </div>
-                <Link to='/'>
+                {/* <Link to='/'>
                 <img src="/image/avatar.jpeg" alt="User avatar" className="pd-2 border"></img>
-                </Link>
+                </Link> */}
             </div>
         </header>
     );

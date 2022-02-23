@@ -17,7 +17,7 @@ export function ActivityPageCoral(props) {
                                 <hr></hr>
                                 <div className="d-flex justify-content-around">
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
+                                        <img src="/public/image/apDiff.png" alt="Difficulty" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Easy"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
@@ -527,4 +527,3 @@ export function ActivityPageAsk(props) {
 
     );
 }
-
