@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/ai_playground/static/css/main.44e09747.chunk.css",
-    "main.js": "/ai_playground/static/js/main.1d279e0c.chunk.js",
-    "main.js.map": "/ai_playground/static/js/main.1d279e0c.chunk.js.map",
-    "runtime~main.js": "/ai_playground/static/js/runtime~main.416fdd1e.js",
-    "runtime~main.js.map": "/ai_playground/static/js/runtime~main.416fdd1e.js.map",
-    "static/js/2.ac1e9f37.chunk.js": "/ai_playground/static/js/2.ac1e9f37.chunk.js",
-    "static/js/2.ac1e9f37.chunk.js.map": "/ai_playground/static/js/2.ac1e9f37.chunk.js.map",
-    "static/js/3.43ac7eac.chunk.js": "/ai_playground/static/js/3.43ac7eac.chunk.js",
-    "static/js/3.43ac7eac.chunk.js.map": "/ai_playground/static/js/3.43ac7eac.chunk.js.map",
+    "main.css": "/ai_playground/static/css/main.05e4283f.chunk.css",
+    "main.js": "/ai_playground/static/js/main.110a61ea.chunk.js",
+    "main.js.map": "/ai_playground/static/js/main.110a61ea.chunk.js.map",
+    "runtime-main.js": "/ai_playground/static/js/runtime-main.d9cbc4cf.js",
+    "runtime-main.js.map": "/ai_playground/static/js/runtime-main.d9cbc4cf.js.map",
+    "static/js/2.06cabed2.chunk.js": "/ai_playground/static/js/2.06cabed2.chunk.js",
+    "static/js/2.06cabed2.chunk.js.map": "/ai_playground/static/js/2.06cabed2.chunk.js.map",
+    "static/js/3.fe89119d.chunk.js": "/ai_playground/static/js/3.fe89119d.chunk.js",
+    "static/js/3.fe89119d.chunk.js.map": "/ai_playground/static/js/3.fe89119d.chunk.js.map",
     "index.html": "/ai_playground/index.html",
-    "precache-manifest.afecdfe9571468630eff34081aba136c.js": "/ai_playground/precache-manifest.afecdfe9571468630eff34081aba136c.js",
+    "precache-manifest.8d7c7671098e60ff7375ef7b8f91a9f8.js": "/ai_playground/precache-manifest.8d7c7671098e60ff7375ef7b8f91a9f8.js",
     "service-worker.js": "/ai_playground/service-worker.js",
-    "static/css/main.44e09747.chunk.css.map": "/ai_playground/static/css/main.44e09747.chunk.css.map",
+    "static/css/main.05e4283f.chunk.css.map": "/ai_playground/static/css/main.05e4283f.chunk.css.map",
+    "static/js/2.06cabed2.chunk.js.LICENSE.txt": "/ai_playground/static/js/2.06cabed2.chunk.js.LICENSE.txt",
     "static/media/style.css": "/ai_playground/static/media/innerActBackgroundY.7abb981a.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9cbc4cf.js",
+    "static/js/2.06cabed2.chunk.js",
+    "static/css/main.05e4283f.chunk.css",
+    "static/js/main.110a61ea.chunk.js"
+  ]
 }

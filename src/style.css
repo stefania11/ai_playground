@@ -44,6 +44,7 @@ header {
 }
 
 img.homepageMain {
+  /* background-image: url("images/hpMainBanner.png"); */
   width:500px;
   margin-top: 80px;
   margin-bottom: 20px;

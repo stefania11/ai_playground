@@ -1,6 +1,7 @@
 {
   "name": "playground",
   "homepage": "https://stefania11.github.io/ai_playground",
+  "private": false,
   "version": "0.1.0",
   "dependencies": {
     "@material-ui/core": "^4.12.3",

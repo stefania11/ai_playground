@@ -5,11 +5,12 @@ import { ActivityFilter } from './ActivityFilter';
 import { ActivityList } from './ActivityList'
 import { ActivityPageCoral, ActivityPageDesign, ActivityPageScavenger, ActivityPageAsk } from './ActivityPage'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link} from 'react-router-dom';
 
 function App() {
   return (
     <div>
+
       <HashRouter>
         {/* <div>
         <NavBar />
@@ -62,6 +63,11 @@ function App() {
           } />
 
         </Routes>
+        {/* <Switch>
+          <Route path='/' exact component={Welcome} />
+          <Route path='/Activity' component={ActivityList} />
+          <Route path='/Activity/Coral' component={ActivityPageCoral} />
+        </Switch> */}
       </HashRouter>
     </div>
   );
