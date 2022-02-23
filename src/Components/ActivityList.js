@@ -9,10 +9,10 @@ export function ActivityList() {
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Image Classification"}</h2>
-                            <p>{"This category is about....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
+                            <p>{"Learn more about how computers classify images"}</p>
                         </div>
                         <div className="image">
-                            <img src="/image/apImageClassification.png" alt="Two people identifying an pattern" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/apImageClassification.png"} alt="Two people identifying an pattern" className="activityPage"></img>
                         </div>
                     </div>
 
@@ -21,7 +21,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/apICCoral.png" alt="Object detection of Corals" className="activityPage-IC-Coral"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/apICCoral.png"} alt="Object detection of Corals" className="activityPage-IC-Coral"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Coral Learning Activity"}</h2>
@@ -34,7 +34,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankYellow.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
@@ -45,7 +45,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankYellow.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Object Detection"}</h2>
@@ -65,10 +65,10 @@ export function ActivityList() {
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Machine Learning"}</h2>
-                            <p>{"Updated here"}</p>
+                            <p>{"Teach a machine to learn from your examples"}</p>
                         </div>
                         <div className="image">
-                            <img src="/image/hpCat.png" alt="Machine Learning" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/hpCat.png"} alt="Machine Learning" className="activityPage"></img>
                         </div>
                     </div>
 
@@ -78,7 +78,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/HomePage_scavengerHunt.png" alt="Scavenger Hunt" className="activityPage-ML-Scavenger"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/HomePage_scavengerHunt.png"} alt="Scavenger Hunt" className="activityPage-ML-Scavenger"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Scavenger Hunt"}</h2>
@@ -91,7 +91,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankBlue.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankBlue.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
@@ -102,7 +102,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankBlue.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankBlue.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Machine Learning"}</h2>
@@ -122,11 +122,11 @@ export function ActivityList() {
                 <section className="interactiveCoding" id="interactiveCoding">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
-                            <h2>{"Interactive Coding"}</h2>
-                            <p>{"This category is about....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
+                            <h2>{"Design & Analyze AI"}</h2>
+                            <p>{" "}</p>
                         </div>
                         <div className="image">
-                            <img src="/image/apInteractiveCoding.png" alt="Interactive Coding" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/apInteractiveCoding.png"} alt="Interactive Coding" className="activityPage"></img>
                         </div>
                     </div>
 
@@ -135,7 +135,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/HomePage_analyzeAi.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/HomePage_analyzeAi.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Design & Analyze AI"}</h2>
@@ -148,7 +148,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankPink.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankPink.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
@@ -159,7 +159,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankPink.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankPink.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Interactive Coding"}</h2>
@@ -183,10 +183,10 @@ export function ActivityList() {
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Voice Assistants"}</h2>
-                            <p>{"This category is about....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
+                            <p>{"Learn how to play and understand better voice assistants"}</p>
                         </div>
                         <div className="image">
-                            <img src="/image/apVoiceAssistants.png" alt="Voice Assistants" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/apVoiceAssistants.png"} alt="Voice Assistants" className="activityPage"></img>
                         </div>
                     </div>
 
@@ -195,7 +195,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/HomePage_askAi.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/HomePage_askAi.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Ask AI"}</h2>
@@ -208,7 +208,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankGreen.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankGreen.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
@@ -219,7 +219,7 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src="/image/blankGreen.png" alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/blankGreen.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Voice Assistants"}</h2>
