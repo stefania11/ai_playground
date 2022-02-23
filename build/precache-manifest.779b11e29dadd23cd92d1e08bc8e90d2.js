@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba17ec064b4c083177bba3d3a74ed37f",
+    "revision": "d4f01ebcee6087ca9f64a36dca9c103d",
     "url": "/ai_playground/index.html"
   },
   {
-    "revision": "b9539e9fdb978142fd83",
-    "url": "/ai_playground/static/css/main.05e4283f.chunk.css"
+    "revision": "a979cfb43642d1ebf0b7",
+    "url": "/ai_playground/static/css/main.4160fa8d.chunk.css"
   },
   {
     "revision": "a2684934e806390ad071",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ai_playground/static/js/3.fe89119d.chunk.js"
   },
   {
-    "revision": "b9539e9fdb978142fd83",
-    "url": "/ai_playground/static/js/main.110a61ea.chunk.js"
+    "revision": "a979cfb43642d1ebf0b7",
+    "url": "/ai_playground/static/js/main.c50b9b4a.chunk.js"
   },
   {
     "revision": "483216ef086785af7508",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3fca610283f97edba1a7e033e1a5113e",
     "url": "/ai_playground/static/media/hpBackground.3fca6102.png"
-  },
-  {
-    "revision": "a7d335335caa4a0e1226ac9b58afe22d",
-    "url": "/ai_playground/static/media/hpMainBanner.a7d33533.png"
   },
   {
     "revision": "f18203d1a79aa833d88570fb94d2ff2a",

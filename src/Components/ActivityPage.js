@@ -7,7 +7,7 @@ export function ActivityPageCoral(props) {
                 <section className="innerImageClassification">
                     <div className="d-flex">
                         <div className="image">
-                            <img src="/image/apICCoral.png" alt="Object detection of Corals" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/apICCoral.png"} alt="Object detection of Corals" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Coral Learning Activity"}</h2>
@@ -65,7 +65,7 @@ export function ActivityPageCoral(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/CoralPrep.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/CoralPrep.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Preparation Instruction"} </p>
