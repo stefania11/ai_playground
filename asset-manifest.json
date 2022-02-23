@@ -1,24 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.333c1a3b.css",
-    "main.js": "/static/js/main.f00ef2ed.js",
-    "static/js/787.062e0bf8.chunk.js": "/static/js/787.062e0bf8.chunk.js",
-    "static/media/actBackgroundY.png": "/static/media/actBackgroundY.c6d9e97e067bfaafaa2e.png",
-    "static/media/actBackgroundB.png": "/static/media/actBackgroundB.891a34ee34dd37e15aed.png",
-    "static/media/actBackgroundG.png": "/static/media/actBackgroundG.97b378de7a8662d52a16.png",
-    "static/media/actBackgroundP.png": "/static/media/actBackgroundP.04e75f75d0b19cde0993.png",
-    "static/media/innerActBackgroundY.png": "/static/media/innerActBackgroundY.2f7a06f169f17eaaeccc.png",
-    "static/media/innerActBackgroundG.png": "/static/media/innerActBackgroundG.7fc3c0c411efa48471dc.png",
-    "static/media/innerActBackgroundP.png": "/static/media/innerActBackgroundP.9579ef7d28585769e5ad.png",
-    "static/media/innerActBackgroundB.png": "/static/media/innerActBackgroundB.7fe875e9ad9d0650a54f.png",
-    "static/media/hpBackground.png": "/static/media/hpBackground.ca56c959f41219068a57.png",
-    "index.html": "/index.html",
-    "main.333c1a3b.css.map": "/static/css/main.333c1a3b.css.map",
-    "main.f00ef2ed.js.map": "/static/js/main.f00ef2ed.js.map",
-    "787.062e0bf8.chunk.js.map": "/static/js/787.062e0bf8.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.333c1a3b.css",
-    "static/js/main.f00ef2ed.js"
-  ]
+    "main.css": "/ai_playground/static/css/main.44e09747.chunk.css",
+    "main.js": "/ai_playground/static/js/main.52230c0a.chunk.js",
+    "main.js.map": "/ai_playground/static/js/main.52230c0a.chunk.js.map",
+    "runtime~main.js": "/ai_playground/static/js/runtime~main.6b3fea65.js",
+    "runtime~main.js.map": "/ai_playground/static/js/runtime~main.6b3fea65.js.map",
+    "static/js/2.749e0811.chunk.js": "/ai_playground/static/js/2.749e0811.chunk.js",
+    "static/js/2.749e0811.chunk.js.map": "/ai_playground/static/js/2.749e0811.chunk.js.map",
+    "index.html": "/ai_playground/index.html",
+    "precache-manifest.81f55fabe56b19eebad8fdca83d46d02.js": "/ai_playground/precache-manifest.81f55fabe56b19eebad8fdca83d46d02.js",
+    "service-worker.js": "/ai_playground/service-worker.js",
+    "static/css/main.44e09747.chunk.css.map": "/ai_playground/static/css/main.44e09747.chunk.css.map",
+    "static/media/style.css": "/ai_playground/static/media/innerActBackgroundY.7abb981a.png"
+  }
 }
