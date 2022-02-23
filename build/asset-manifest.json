@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ai_playground/static/css/main.115a9c55.css",
+    "main.js": "/ai_playground/static/js/main.1b8f0792.js",
+    "static/media/actBackgroundY.png": "/ai_playground/static/media/actBackgroundY.c6d9e97e067bfaafaa2e.png",
+    "static/media/actBackgroundB.png": "/ai_playground/static/media/actBackgroundB.891a34ee34dd37e15aed.png",
+    "static/media/actBackgroundG.png": "/ai_playground/static/media/actBackgroundG.97b378de7a8662d52a16.png",
+    "static/media/actBackgroundP.png": "/ai_playground/static/media/actBackgroundP.04e75f75d0b19cde0993.png",
+    "static/media/innerActBackgroundY.png": "/ai_playground/static/media/innerActBackgroundY.2f7a06f169f17eaaeccc.png",
+    "static/media/innerActBackgroundG.png": "/ai_playground/static/media/innerActBackgroundG.7fc3c0c411efa48471dc.png",
+    "static/media/innerActBackgroundP.png": "/ai_playground/static/media/innerActBackgroundP.9579ef7d28585769e5ad.png",
+    "static/media/innerActBackgroundB.png": "/ai_playground/static/media/innerActBackgroundB.7fe875e9ad9d0650a54f.png",
+    "static/media/hpBackground.png": "/ai_playground/static/media/hpBackground.ca56c959f41219068a57.png",
+    "index.html": "/ai_playground/index.html",
+    "main.115a9c55.css.map": "/ai_playground/static/css/main.115a9c55.css.map",
+    "main.1b8f0792.js.map": "/ai_playground/static/js/main.1b8f0792.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115a9c55.css",
+    "static/js/main.1b8f0792.js"
+  ]
+}
