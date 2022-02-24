@@ -279,8 +279,18 @@ section.activityPage div.activityTextSection div.d-flex{
       border-color: #868686;
 }
 
-.btn-playground {
+.btn-playground-yellow {
   background-color: #fcefd0 !important;
+}
+.btn-playground-blue {
+  background-color: #CCDDEE ;
+}
+.btn-playground-pink {
+  background-color: #F6D6DD ;
+}
+
+.btn-playground-green {
+  background-color:  #E5E8CF;
 }
 
 .activityPage button {

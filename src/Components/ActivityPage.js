@@ -34,13 +34,12 @@ export function ActivityPageCoral(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://coralandtest.herokuapp.com/'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Classify Game"}</button>
+                                        <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Classify Game"}</button>
                                     </a>
                                     <a href={'https://coralandanchor.herokuapp.com/'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Anchor Game"}</button>
+                                        <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Anchor Game"}</button>
                                     </a>
-                                    {/* <button type="button" className="btn btn-modify" id="modifyBtn">{"Modify Game"}</button> */}
-                                    {/* <button type="button" className="btn btn-light bg-white border-dark" id="starBtn">{"Activity Printout"}</button> */}
+
                                 </div>
                             </div>
                         </div>
@@ -86,7 +85,7 @@ export function ActivityPageCoral(props) {
                         <br></br>
                         <div>
                             <a href={'https://docs.google.com/presentation/d/1tvyBCk8xiLA3IBuW0q7cBTICYWzdlyz-cuaCPHPpLhw/edit#slide=id.p'}>
-                            <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Explore"}</button>
+                            <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Explore"}</button>
                             </a>
                         </div>
                     </div>
@@ -101,7 +100,7 @@ export function ActivityPageCoral(props) {
                         <br></br>
                         <div>
                             <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
-                                <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
+                                <button type="button" className="btn btn-playground-yellow border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
                         <br></br>
@@ -109,73 +108,9 @@ export function ActivityPageCoral(props) {
                         <br></br>
                         <br></br>
                         <br></br>
-                        {/* <div className='comHis'>
-                            <hr></hr>
-                            <div className="d-flex justify-content-start">
-                                <hr></hr>
-                                <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
-                                <p>{"Jane Doe | May 22 2020"}</p>
-                                <p>{"Share your thoughts, ideas, and any suggestions about the game...oad these items....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}</p>
-                            </div>
-                            <hr></hr>
-                        </div> */}
                     </div>
                 </div>
             </div>
-
-            {/* <div className='exploreAct'>
-                <hr></hr>
-                <h2>{"Explore Activities"}</h2>
-                <p>{"To further explore check out these activities...."} </p>
-
-                <div className="activity d-flex">
-
-                    <div className="d-flex flex-column">
-                        <div>
-                            <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
-                        </div>
-                        <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Game PDF"} </p>
-                        </div>
-                    </div>
-
-                    <div className="d-flex flex-column">
-                        <div>
-                            <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
-                        </div>
-                        <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Game PDF"} </p>
-                        </div>
-                    </div>
-
-                    <div className="d-flex flex-column">
-                        <div>
-                            <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
-                        </div>
-                        <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Game PDF"} </p>
-                        </div>
-                    </div>
-
-                    <div className="d-flex flex-column">
-                        <div>
-                            <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
-                        </div>
-                        <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Game PDF"} </p>
-                        </div>
-                    </div>
-
-                    <div className="d-flex flex-column">
-                        <div>
-                            <img src="/image/blankYellow.png" alt="NA" className="NA"></img>
-                        </div>
-                        <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Game PDF"} </p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </div>
 
     );
@@ -216,10 +151,10 @@ export function ActivityPageScavenger(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://docs.google.com/forms/d/e/1FAIpQLSc_vWcNHoZWyagQD7UpbdVa9QKyBxCdUl3es4KPqw_S_tly7w/viewform'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Take Quiz"}</button>
+                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Take Quiz"}</button>
                                     </a>
                                     <a href={'https://teachablemachine.withgoogle.com/v1/'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try Activity"}</button>
+                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Try Activity"}</button>
                                     </a>
                                 </div>
                             </div>
@@ -238,7 +173,7 @@ export function ActivityPageScavenger(props) {
                             <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_1.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Activity Introduction"} </p>
+                            <p style={{ color: 'grey' }}>{"Family Playbook"} </p>
                         </div>
                     </div>
 
@@ -266,7 +201,7 @@ export function ActivityPageScavenger(props) {
                         <br></br>
                         <div>
                             <a href={'https://docs.google.com/presentation/d/1Z3eoTM8sba0EfcGgmMrIieEtmoGp28NilSJlgLeX71w/edit?usp=sharing'}>
-                                <button type="button" className="btn btn-light bg-white border-dark" id="downloadBtn">{"Download"}</button>
+                                <button type="button" className="btn btn-light -blue border-dark" id="downloadBtn">{"Download"}</button>
                             </a>
                         </div>
                     </div>
@@ -279,12 +214,13 @@ export function ActivityPageScavenger(props) {
                         <h2>{"Share Your Ideas"}</h2>
                         <br></br>
                         <div>
-                            <a href={'https://www.google.com/'}>
-                                <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
+                        <div>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
+                                <button type="button" className="btn btn-playground-blue border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
+                        </div>
                         <br></br>
-                        {/* <p>{"(The above button is a place holder; it actually links to Google)"}</p> */}
                         <br></br>
                         <br></br>
                         <br></br>
@@ -390,12 +326,13 @@ export function ActivityPageDesign(props) {
                         <h2>{"Share Your Ideas"}</h2>
                         <br></br>
                         <div>
-                            <a href={'https://www.google.com/'}>
+                        <div>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
                                 <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
+                        </div>
                         <br></br>
-                        <p>{"(The above button is a place holder; it actually links to Google)"}</p>
                         <br></br>
                         <br></br>
                         <br></br>
@@ -441,7 +378,7 @@ export function ActivityPageAsk(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://www.figma.com/file/FgVNDOF2mwhsv24vcQf2ZE/Ask-AI-worksheet?node-id=0%3A1'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try Activity"}</button>
+                                        <button type="button" className="btn btn-playground_blue border-dark" id="playBtn">{"Try Activity"}</button>
                                     </a>
                                 </div>
                             </div>
@@ -501,9 +438,11 @@ export function ActivityPageAsk(props) {
                         <h2>{"Share Your Ideas"}</h2>
                         <br></br>
                         <div>
-                            <a href={'https://www.google.com/'}>
+                        <div>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
                                 <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
+                        </div>
                         </div>
                         <br></br>
                         <br></br>
