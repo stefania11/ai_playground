@@ -25,32 +25,36 @@ export function ActivityList() {
                             </div>
                             <div className="activityContent">
                                 <h2>{"Coral Learning Activity"}</h2>
-                                <p>{"Image classification game for kids"}</p>
+                                <p>{"Image classification for families"}</p>
                                 <Link to='/Activity/Coral'>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
                                 </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankYellow.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/Classification2.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Object Detection"}</h2>
-                                <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <h2>{"Classification Game"}</h2>
+                                <p>{"Classify Coral Images"}</p>
+                                <Link to='/Activity/Coral'>
+                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankYellow.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/Classification3.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Object Detection"}</h2>
-                                <p>{"Mutiple object detection using pre-trained model"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <h2>{"Anchor Game"}</h2>
+                                <p>{"Pick Segments of Coral Images"}</p>
+                                <Link to='/Activity/Coral'>
+                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 

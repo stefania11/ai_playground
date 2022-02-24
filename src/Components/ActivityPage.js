@@ -11,7 +11,7 @@ export function ActivityPageCoral(props) {
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Coral Learning Activity"}</h2>
-                            <p>{"In this activity, family will play two games together and learn how to classify and sumarise different images of corals"} </p>
+                            <p>{"In this activity, family will play two games together and learn how to classify and summarize different images of corals"} </p>
                             <br></br>
                             <div>
                                 <hr></hr>
@@ -63,19 +63,19 @@ export function ActivityPageCoral(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src={process.env.PUBLIC_URL +"/image/CoralAnchor.png"} alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Classification2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Anchor Instruction"} </p>
+                            <p style={{ color: 'grey' }}>{"Classification Game Instructions"} </p>
                         </div>
                     </div>
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src={process.env.PUBLIC_URL +"/image/CoralClas.png"} alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Classification3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Classfication Instruction"} </p>
+                            <p style={{ color: 'grey' }}>{"Anchor Game Instructions"} </p>
                         </div>
                     </div>
 
