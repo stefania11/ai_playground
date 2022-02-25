@@ -5,66 +5,6 @@ export function ActivityList() {
     return (
         <div>
             <section className="activityList">
-                <section className="imageClassification" id="imageClassification">
-                    <div className="d-flex">
-                        <div className="activityTextSection col-5">
-                            <h2>{"Image Classification"}</h2>
-                            <p>{"Learn more about how computers classify images"}</p>
-                        </div>
-                        <div className="image">
-                            <img src={process.env.PUBLIC_URL +"/image/apImageClassification.png"} alt="Two people identifying an pattern" className="activityPage"></img>
-                        </div>
-                    </div>
-
-                    <div className="activity d-flex">
-                        {/* <div className="row"> */}
-
-                        <div className="d-flex flex-column">
-                            <div>
-                                <img src={process.env.PUBLIC_URL +"/image/apICCoral.png"} alt="Object detection of Corals" className="activityPage-IC-Coral"></img>
-                            </div>
-                            <div className="activityContent">
-                                <h2>{"Coral Learning Activity"}</h2>
-                                <p>{"Image classification for families"}</p>
-                                <Link to='/Activity/Coral'>
-                                <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="d-flex flex-column">
-                            <div>
-                                <img src={process.env.PUBLIC_URL +"/image/Classification2.png"} alt="NA" className="NA"></img>
-                            </div>
-                            <div className="activityContent">
-                                <h2>{"Classification Game"}</h2>
-                                <p>{"Classify Coral Images"}</p>
-                                <Link to='/Activity/Coral'>
-                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="d-flex flex-column">
-                            <div>
-                                <img src={process.env.PUBLIC_URL +"/image/Classification3.png"} alt="NA" className="NA"></img>
-                            </div>
-                            <div className="activityContent">
-                                <h2>{"Anchor Game"}</h2>
-                                <p>{"Pick Segments of Coral Images"}</p>
-                                <Link to='/Activity/Coral'>
-                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
-                                </Link>
-                            </div>
-                        </div>
-
-                        {/* </div> */}
-                    </div>
-                </section>
-
-            </section>
-
-            <section className="activityList">
                 <section className="machineLearning" id="machineLearning">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
@@ -82,36 +22,40 @@ export function ActivityList() {
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/HomePage_scavengerHunt.png"} alt="Scavenger Hunt" className="activityPage-ML-Scavenger"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/ML1.png"} alt="Scavenger Hunt" className="activityPage-ML-Scavenger"></img>
                             </div>
                             <div className="activityContent">
                                 <h2>{"Scavenger Hunt"}</h2>
-                                <p>{"Machine Learning game for kids"}</p>
+                                <p>{"Machine Learning Game"}</p>
                                 <Link to='/Activity/ScavengerHunt'>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <button type="button" className="btn btn-playground-blue">{"View More"}</button>
                                 </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankBlue.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/ML2.jpeg"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Machine Learning"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
-                            </div>
+                                <h2>{"Detect Home Objects"}</h2>
+                                <p>{"Mobile Apps for Object Detection"}</p>
+                                <Link to='/Activity/ScavengerHunt'>
+                                <button type="button" className="btn btn-playground-blue">{"View More"}</button>
+                                </Link>
+                                </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankBlue.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/ML3.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Machine Learning"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <h2>{"Guess Prediction Game"}</h2>
+                                <p>{"Guess Machine Object Predictions"}</p>
+                                <Link to='/Activity/ScavengerHunt'>
+                                <button type="button" className="btn btn-playground-blue">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -237,6 +181,63 @@ export function ActivityList() {
                 </section>
 
             </section>
+            <section className="activityList">
+                <section className="imageClassification" id="imageClassification">
+                    <div className="d-flex">
+                        <div className="activityTextSection col-5">
+                            <h2>{"Image Classification"}</h2>
+                            <p>{"Learn more about how computers classify images"}</p>
+                        </div>
+                        <div className="image">
+                            <img src={process.env.PUBLIC_URL +"/image/apImageClassification.png"} alt="Two people identifying an pattern" className="activityPage"></img>
+                        </div>
+                    </div>
+
+                    <div className="activity d-flex">
+                        {/* <div className="row"> */}
+
+                        <div className="d-flex flex-column">
+                            <div>
+                                <img src={process.env.PUBLIC_URL +"/image/apICCoral.png"} alt="Object detection of Corals" className="activityPage-IC-Coral"></img>
+                            </div>
+                            <div className="activityContent">
+                                <h2>{"Coral Learning Activity"}</h2>
+                                <p>{"Image classification for families"}</p>
+                                <Link to='/Activity/Coral'>
+                                <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="d-flex flex-column">
+                            <div>
+                                <img src={process.env.PUBLIC_URL +"/image/Classification2.png"} alt="NA" className="NA"></img>
+                            </div>
+                            <div className="activityContent">
+                                <h2>{"Classification Game"}</h2>
+                                <p>{"Classify Coral Images"}</p>
+                                <Link to='/Activity/Coral'>
+                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="d-flex flex-column">
+                            <div>
+                                <img src={process.env.PUBLIC_URL +"/image/Classification3.png"} alt="NA" className="NA"></img>
+                            </div>
+                            <div className="activityContent">
+                                <h2>{"Anchor Game"}</h2>
+                                <p>{"Pick Segments of Coral Images"}</p>
+                                <Link to='/Activity/Coral'>
+                                    <button type="button" className="btn btn-playground-yellow">{"View More"}</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
         </div>
 
     );

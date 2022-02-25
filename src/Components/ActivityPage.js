@@ -124,7 +124,7 @@ export function ActivityPageScavenger(props) {
                 <section className="innerMachineLearning">
                     <div className="d-flex">
                         <div className="image">
-                            <img src={process.env.PUBLIC_URL +"/image/GamePage__scavengerHunt.png"} alt="Scavenger Hunt" className="activityPage"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Scavenger_banner.png"} alt="Scavenger Hunt" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Scavenger Hunt"}</h2>
@@ -151,10 +151,10 @@ export function ActivityPageScavenger(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://docs.google.com/forms/d/e/1FAIpQLSc_vWcNHoZWyagQD7UpbdVa9QKyBxCdUl3es4KPqw_S_tly7w/viewform'}>
-                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Take Quiz"}</button>
+                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Prediction Game"}</button>
                                     </a>
                                     <a href={'https://teachablemachine.withgoogle.com/v1/'}>
-                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Try Activity"}</button>
+                                        <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Teachable Machine"}</button>
                                     </a>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ export function ActivityPageScavenger(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_1.png"} alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/ML1.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Family Playbook"} </p>
@@ -182,7 +182,7 @@ export function ActivityPageScavenger(props) {
                             <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Activity Instruction"} </p>
+                            <p style={{ color: 'grey' }}>{"Machine Learning Game"} </p>
                         </div>
                     </div>
 
@@ -191,7 +191,7 @@ export function ActivityPageScavenger(props) {
                             <img src={process.env.PUBLIC_URL +"/image/LM_scavengerHunt_3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Activity Demostration"} </p>
+                            <p style={{ color: 'grey' }}>{"Prediction Game"} </p>
                         </div>
                     </div>
 
@@ -201,7 +201,7 @@ export function ActivityPageScavenger(props) {
                         <br></br>
                         <div>
                             <a href={'https://docs.google.com/presentation/d/1Z3eoTM8sba0EfcGgmMrIieEtmoGp28NilSJlgLeX71w/edit?usp=sharing'}>
-                                <button type="button" className="btn btn-light -blue border-dark" id="downloadBtn">{"Download"}</button>
+                                <button type="button" className="btn btn-playground-blue border-dark" id="downloadBtn">{"Explore"}</button>
                             </a>
                         </div>
                     </div>
