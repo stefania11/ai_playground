@@ -242,8 +242,8 @@ export function ActivityPageDesign(props) {
                             <img src={process.env.PUBLIC_URL +"/image/GamePage_analyzeAi.png"} alt="Design and Analyze AI" className="activityPage"></img>
                         </div>
                         <div className="activityTextSection col-5">
-                            <h2>{"Design & Analyze AI"}</h2>
-                            <p>{"Play Bingo game with AI and try to get as many Bingo boxes checked. Think about what is your AI technology like? Is it like an animal or a person? At the end, design your own AI device! Feel free to customize your AI using design tool kit provided. "} </p>
+                            <h2>{"Design & Program AI"}</h2>
+                            <p>{"Think about what is your AI technology like? Is it like an animal or a person? At the end, design your own AI device! Customize your AI with our design toolkit."} </p>
                             <br></br>
                             <div>
                                 <hr></hr>
@@ -253,11 +253,11 @@ export function ActivityPageDesign(props) {
                                         <p style={{ color: 'grey' }}>{"Easy"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apAge.png" alt="Age Group" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apAge.png"} alt="Age Group" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"Ages 6-16"} </p>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <img src="/image/apTime.png" alt="Time" className="actDesImg"></img>
+                                        <img src={process.env.PUBLIC_URL +"/image/apTime.png"} alt="Time" className="actDesImg"></img>
                                         <p style={{ color: 'grey' }}>{"30-45min"} </p>
                                     </div>
                                 </div>
@@ -266,7 +266,10 @@ export function ActivityPageDesign(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
-                                        <button type="button" className="btn btn-playground border-dark" id="playBtn">{"Try Activity"}</button>
+                                        <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Design Activity"}</button>
+                                    </a>
+                                    <a href={'www.cognimates.me'}>
+                                        <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Program Smart Games"}</button>
                                     </a>
                                 </div>
                             </div>
@@ -282,16 +285,16 @@ export function ActivityPageDesign(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src="/image/LM_analyzeAi_1.png" alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Design4.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Bingo Game Worksheet"} </p>
+                            <p style={{ color: 'grey' }}>{"Family Playbook"} </p>
                         </div>
                     </div>
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src={process.env.PUBLIC_URL +"/image/LM_analyzeAi_2.png"} alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Design2.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
                             <p style={{ color: 'grey' }}>{"Analyze AI Worksheet"} </p>
@@ -300,10 +303,10 @@ export function ActivityPageDesign(props) {
 
                     <div className="d-flex flex-column">
                         <div>
-                            <img src={process.env.PUBLIC_URL +"/image/LM_analyzeAi_3.png"} alt="NA" className="NA"></img>
+                            <img src={process.env.PUBLIC_URL +"/image/Design3.png"} alt="NA" className="NA"></img>
                         </div>
                         <div className="activityContent">
-                            <p style={{ color: 'grey' }}>{"Design AI Worksheet"} </p>
+                            <p style={{ color: 'grey' }}>{"Program Games"} </p>
                         </div>
                     </div>
 
@@ -313,7 +316,7 @@ export function ActivityPageDesign(props) {
                         <br></br>
                         <div>
                             <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
-                                <button type="button" className="btn btn-light bg-white border-dark" id="downloadBtn">{"Download"}</button>
+                                <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Explore"}</button>
                             </a>
                         </div>
                     </div>
@@ -328,7 +331,7 @@ export function ActivityPageDesign(props) {
                         <div>
                         <div>
                             <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
-                                <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
+                                <button type="button" className="btn btn-playground-pink border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
                         </div>

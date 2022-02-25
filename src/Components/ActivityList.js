@@ -70,8 +70,8 @@ export function ActivityList() {
                 <section className="interactiveCoding" id="interactiveCoding">
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
-                            <h2>{"Design & Analyze AI"}</h2>
-                            <p>{" "}</p>
+                            <h2>{"Design & Program AI"}</h2>
+                            <p>{"Design and program your own AI device"}</p>
                         </div>
                         <div className="image">
                             <img src={process.env.PUBLIC_URL +"/image/apInteractiveCoding.png"} alt="Interactive Coding" className="activityPage"></img>
@@ -86,33 +86,37 @@ export function ActivityList() {
                                 <img src={process.env.PUBLIC_URL +"/image/HomePage_analyzeAi.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Design & Analyze AI"}</h2>
-                                <p>{"Interactive coding game for kids"}</p>
+                                <h2>{"Design AI"}</h2>
+                                <p>{"Design Smart Assistants"}</p>
                                 <Link to='/Activity/DesignAnalyzeAI'>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <button type="button" className="btn btn-playground-pink">{"View More"}</button>
                                 </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankPink.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/Design2.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Interactive Coding"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <h2>{"Analyze AI"}</h2>
+                                <p>{"AI Friend or Foe?"}</p>
+                                <Link to='/Activity/DesignAnalyzeAI'>
+                                <button type="button" className="btn btn-playground-pink">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankPink.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/Design3.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Interactive Coding"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <h2>{"Program AI"}</h2>
+                                <p>{"Code smart games"}</p>
+                                <Link to='/Activity/DesignAnalyzeAI'>
+                                <button type="button" className="btn btn-playground-pink">{"View More"}</button>
+                                </Link>
                             </div>
                         </div>
 
