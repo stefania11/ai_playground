@@ -33,6 +33,7 @@ function App() {
 
           <Route path="/Activity" element={
             <div>
+              <NavBar />
               <ActivityFilter />
               <ActivityList />
             </div>
@@ -40,6 +41,7 @@ function App() {
 
           <Route path="/Activity/Coral" element={
             <div>
+              <NavBar />
               <ActivityPageCoral />
             </div>
           } />
@@ -52,12 +54,14 @@ function App() {
 
           <Route path="/Activity/DesignAnalyzeAI" element={
             <div>
+                <NavBar />
               <ActivityPageDesign />
             </div>
           } />
 
           <Route path="/Activity/AskAI" element={
             <div>
+                <NavBar />
               <ActivityPageAsk />
             </div>
           } />

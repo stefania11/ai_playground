@@ -33,10 +33,10 @@ export function ActivityPageCoral(props) {
                                 <br></br>
                                 <br></br>
                                 <div className="d-flex justify-content-around">
-                                    <a href={'https://coralandtest.herokuapp.com/'}>
+                                    <a href={'https://coralandtest.herokuapp.com/'}target="_blank">
                                         <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Classify Game"}</button>
                                     </a>
-                                    <a href={'https://coralandanchor.herokuapp.com/'}>
+                                    <a href={'https://coralandanchor.herokuapp.com/'}target="_blank">
                                         <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Anchor Game"}</button>
                                     </a>
 
@@ -84,7 +84,7 @@ export function ActivityPageCoral(props) {
                         <p>{"Playbook & instructions for this activity"} </p>
                         <br></br>
                         <div>
-                            <a href={'https://docs.google.com/presentation/d/1tvyBCk8xiLA3IBuW0q7cBTICYWzdlyz-cuaCPHPpLhw/edit#slide=id.p'}>
+                            <a href={'https://docs.google.com/presentation/d/1tvyBCk8xiLA3IBuW0q7cBTICYWzdlyz-cuaCPHPpLhw/edit#slide=id.p'}target="_blank">
                             <button type="button" className="btn btn-playground-yellow border-dark" id="playBtn">{"Explore"}</button>
                             </a>
                         </div>
@@ -99,7 +99,7 @@ export function ActivityPageCoral(props) {
                         {/* <textarea rows="10" cols="80"></textarea> */}
                         <br></br>
                         <div>
-                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}target="_blank">
                                 <button type="button" className="btn btn-playground-yellow border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
@@ -150,10 +150,10 @@ export function ActivityPageScavenger(props) {
                                 <br></br>
                                 <br></br>
                                 <div className="d-flex justify-content-around">
-                                    <a href={'https://docs.google.com/forms/d/e/1FAIpQLSc_vWcNHoZWyagQD7UpbdVa9QKyBxCdUl3es4KPqw_S_tly7w/viewform'}>
+                                    <a href={'https://docs.google.com/forms/d/e/1FAIpQLSc_vWcNHoZWyagQD7UpbdVa9QKyBxCdUl3es4KPqw_S_tly7w/viewform'}target="_blank">
                                         <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Prediction Game"}</button>
                                     </a>
-                                    <a href={'https://teachablemachine.withgoogle.com/v1/'}>
+                                    <a href={'https://teachablemachine.withgoogle.com/v1/'}target="_blank">
                                         <button type="button" className="btn btn-playground-blue border-dark" id="playBtn">{"Teachable Machine"}</button>
                                     </a>
                                 </div>
@@ -200,7 +200,7 @@ export function ActivityPageScavenger(props) {
                         <p>{"Printouts for this activity design"} </p>
                         <br></br>
                         <div>
-                            <a href={'https://docs.google.com/presentation/d/1Z3eoTM8sba0EfcGgmMrIieEtmoGp28NilSJlgLeX71w/edit?usp=sharing'}>
+                            <a href={'https://docs.google.com/presentation/d/1Z3eoTM8sba0EfcGgmMrIieEtmoGp28NilSJlgLeX71w/edit?usp=sharing'}target="_blank">
                                 <button type="button" className="btn btn-playground-blue border-dark" id="downloadBtn">{"Explore"}</button>
                             </a>
                         </div>
@@ -215,7 +215,7 @@ export function ActivityPageScavenger(props) {
                         <br></br>
                         <div>
                         <div>
-                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}target="_blank">
                                 <button type="button" className="btn btn-playground-blue border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
@@ -265,10 +265,10 @@ export function ActivityPageDesign(props) {
                                 <br></br>
                                 <br></br>
                                 <div className="d-flex justify-content-around">
-                                    <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
+                                    <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}target="_blank">
                                         <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Family Playbook"}</button>
                                     </a>
-                                    <a href={'www.cognimates.me'}>
+                                    <a href={'www.cognimates.me'}target="_blank">
                                         <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Program Smart Games"}</button>
                                     </a>
                                 </div>
@@ -318,7 +318,7 @@ export function ActivityPageDesign(props) {
                             {/* <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
                                 <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Playbook"}</button>
                             </a> */}
-                            <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Posters%20AI%20Literacy%20Families.pdf'}>
+                            <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Posters%20AI%20Literacy%20Families.pdf'}target="_blank">
                                 <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Printouts"}</button>
                             </a>
 
@@ -334,7 +334,7 @@ export function ActivityPageDesign(props) {
                         <br></br>
                         <div>
                         <div>
-                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}target="_blank">
                                 <button type="button" className="btn btn-playground-pink border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
@@ -384,10 +384,10 @@ export function ActivityPageAsk(props) {
                                 <br></br>
                                 <br></br>
                                 <div className="d-flex justify-content-around">
-                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Who%20Knows%20More.pdf'}>
+                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Who%20Knows%20More.pdf'}target="_blank">
                                         <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Who Knows More Game"}</button>
                                     </a>
-                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/BINGO%20GAME.pdf'}>
+                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/BINGO%20GAME.pdf'}target="_blank">
                                         <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"AI Bingo Game"}</button>
                                     </a>
                                 </div>
@@ -449,7 +449,7 @@ export function ActivityPageAsk(props) {
                         <br></br>
                         <div>
                         <div>
-                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
+                            <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}target="_blank">
                                 <button type="button" className="btn btn-playground-green border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
