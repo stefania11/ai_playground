@@ -6,11 +6,13 @@ export function NavBar() {
         <header className="App-header">
             <div className="d-flex flex-row-reverse justify-content-between">
                 <div className="flex-row-reverse">
-                    {/* <button type="button" className="btn btn-light" id="ingreBtn">{"6 Ingredients"}</button>
-                    <button type="button" className="btn btn-light" id="pbBtn">{"Playbooks"}</button>
-                    <button type="button" className="btn btn-warning" id="createProfBtn">{"Create Profile"}</button> */}
+                <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Posters%20AI%20Literacy%20Families.pdf'}>
+                     <button type="button" className="btn btn-playground-yellow" id="ingreBtn">{"6 Ingredients for AI Literacy"}</button></a>
+                <a href={'https://wip.mitpress.mit.edu/pub/the-4as/release/1'}>
+                     <button type="button" className="btn btn-playground-yellow" id="ingreBtn">{"Book on Family AI Literacy"}</button></a>
+                    {/* <button type="button" className="btn btn-warning" id="createProfBtn">{"Create Profile"}</button> */}
                     <Link to='/Activity'>
-                    <button type="button" className="btn btn-warning" id="createProfBtn">{"Explore Activities"}</button>
+                    <button type="button" className="btn btn-playground-yellow" id="ingreBtn">{"Explore Activities"}</button>
                     </Link>
                 </div>
                 {/* <Link to='/'>
