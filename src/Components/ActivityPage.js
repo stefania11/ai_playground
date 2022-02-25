@@ -266,7 +266,7 @@ export function ActivityPageDesign(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
-                                        <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Design Activity"}</button>
+                                        <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Family Playbook"}</button>
                                     </a>
                                     <a href={'www.cognimates.me'}>
                                         <button type="button" className="btn btn-playground-pink border-dark" id="playBtn">{"Program Smart Games"}</button>
@@ -315,9 +315,13 @@ export function ActivityPageDesign(props) {
                         <p>{"Printouts for this activity design"} </p>
                         <br></br>
                         <div>
-                            <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
-                                <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Explore"}</button>
+                            {/* <a href={'https://docs.google.com/presentation/d/149TvbRzvrKVUehyhA_iVvPJrFCx_hw5SdDG-kn9nH3g/edit#slide=id.g8a8b0ce9fc_0_466'}>
+                                <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Playbook"}</button>
+                            </a> */}
+                            <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Posters%20AI%20Literacy%20Families.pdf'}>
+                                <button type="button" className="btn btn-playground-pink border-dark" id="downloadBtn">{"Printouts"}</button>
                             </a>
+
                         </div>
                     </div>
                 </div>
@@ -380,11 +384,11 @@ export function ActivityPageAsk(props) {
                                 <br></br>
                                 <br></br>
                                 <div className="d-flex justify-content-around">
-                                    <a href={'https://www.figma.com/file/FgVNDOF2mwhsv24vcQf2ZE/Ask-AI-worksheet?node-id=0%3A1'}>
-                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Ask AI Game"}</button>
+                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/Who%20Knows%20More.pdf'}>
+                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Who Knows More Game"}</button>
                                     </a>
-                                    <a href={'https://www.figma.com/file/FgVNDOF2mwhsv24vcQf2ZE/Ask-AI-worksheet?node-id=0%3A1'}>
-                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Bingo Game"}</button>
+                                    <a href={'https://github.com/stefania11/ai_playground/blob/master/public/worksheets/BINGO%20GAME.pdf'}>
+                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"AI Bingo Game"}</button>
                                     </a>
                                 </div>
                             </div>
