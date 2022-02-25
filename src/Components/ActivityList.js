@@ -135,7 +135,7 @@ export function ActivityList() {
                     <div className="d-flex">
                         <div className="activityTextSection col-5">
                             <h2>{"Voice Assistants"}</h2>
-                            <p>{"Learn how to play and understand better voice assistants"}</p>
+                            <p>{"Learn how to play with & better understand voice assistants"}</p>
                         </div>
                         <div className="image">
                             <img src={process.env.PUBLIC_URL +"/image/apVoiceAssistants.png"} alt="Voice Assistants" className="activityPage"></img>
@@ -151,33 +151,35 @@ export function ActivityList() {
                             </div>
                             <div className="activityContent">
                                 <h2>{"Ask AI"}</h2>
-                                <p>{"Voice Assistants AI game for kids"}</p>
+                                <p>{"Voice Assistants Family Game"}</p>
                                 <Link to='/Activity/AskAI'>
-                                <button type="button" className="btn">{"View More"}</button>
+                                <button type="button" className="btn btn-playground-green ">{"View More"}</button>
                                 </Link>
                             </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankGreen.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/VA2.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Voice Assistants"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
-                            </div>
+                                <h2>{"Draw How it Works"}</h2>
+                                <p>{"What is inside Alexa?"}</p>
+                                <Link to='/Activity/AskAI'>
+                                <button type="button" className="btn btn-playground-green ">{"View More"}</button>
+                                </Link>                            </div>
                         </div>
 
                         <div className="d-flex flex-column">
                             <div>
-                                <img src={process.env.PUBLIC_URL +"/image/blankGreen.png"} alt="NA" className="NA"></img>
+                                <img src={process.env.PUBLIC_URL +"/image/VA3.png"} alt="NA" className="NA"></img>
                             </div>
                             <div className="activityContent">
-                                <h2>{"Voice Assistants"}</h2>
-                                <p>{"This is a placeholder text that will be updated later"}</p>
-                                <button type="button" className="btn">{"View More"}</button>
-                            </div>
+                                <h2>{"Bingo Game"}</h2>
+                                <p>{"Assistants Tricks & Tips"}</p>
+                                <Link to='/Activity/AskAI'>
+                                <button type="button" className="btn btn-playground-green ">{"View More"}</button>
+                                </Link>                            </div>
                         </div>
 
                         {/* </div> */}

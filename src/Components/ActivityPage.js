@@ -358,7 +358,7 @@ export function ActivityPageAsk(props) {
                         </div>
                         <div className="activityTextSection col-5">
                             <h2>{"Ask AI"}</h2>
-                            <p>{"Ask the voice assistant and your parents the same questions you think of and record to compare their responses. Remember to mark and share any surprising responses/questions to others."} </p>
+                            <p>{"Ask the voice assistant and your parents the same questions and compare their responses. Share any surprising responses with others. Draw what is inside your voice assitant and explain how it works. Play a Bing Game with your family & your voice assistant."} </p>
                             <br></br>
                             <div>
                                 <hr></hr>
@@ -381,7 +381,10 @@ export function ActivityPageAsk(props) {
                                 <br></br>
                                 <div className="d-flex justify-content-around">
                                     <a href={'https://www.figma.com/file/FgVNDOF2mwhsv24vcQf2ZE/Ask-AI-worksheet?node-id=0%3A1'}>
-                                        <button type="button" className="btn btn-playground_blue border-dark" id="playBtn">{"Try Activity"}</button>
+                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Ask AI Game"}</button>
+                                    </a>
+                                    <a href={'https://www.figma.com/file/FgVNDOF2mwhsv24vcQf2ZE/Ask-AI-worksheet?node-id=0%3A1'}>
+                                        <button type="button" className="btn btn-playground-green border-dark" id="playBtn">{"Bingo Game"}</button>
                                     </a>
                                 </div>
                             </div>
@@ -389,7 +392,7 @@ export function ActivityPageAsk(props) {
                     </div>
                 </section>
             </section>
-
+{/*
             <div className='learningMat'>
                 <hr></hr>
 
@@ -433,7 +436,7 @@ export function ActivityPageAsk(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="comment">
                 <div className='d-flex flex-row justify-content-center'>
@@ -443,7 +446,7 @@ export function ActivityPageAsk(props) {
                         <div>
                         <div>
                             <a href={'https://forms.gle/uLDjfvcbYwUDrJJ29'}>
-                                <button type="button" className="btn btn-playground border-dark" id="comBtn">{"Feedback Form"}</button>
+                                <button type="button" className="btn btn-playground-green border-dark" id="comBtn">{"Feedback Form"}</button>
                             </a>
                         </div>
                         </div>
