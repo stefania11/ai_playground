@@ -361,3 +361,23 @@ div.comHis {
   margin-left: 12rem;
   margin-right: 12rem;
 }
+
+/* -- 6 Ingredients -- */
+
+section.IngredientsIntro {
+  background-image: url("images/ingredientBanner.png");
+  margin-bottom: 2rem;
+}
+
+section.IngredientsIntro div.title {
+  text-align: center;
+}
+
+img.ingredientDesImg {
+  max-width: 100%;
+  min-width: 50%;
+}
+
+section.ActivitySet {
+  margin-left: 2rem;
+}

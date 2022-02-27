@@ -2,10 +2,11 @@ import React from 'react';
 import { NavBar } from './Navigation';
 import { Welcome } from './Welcome';
 import { ActivityFilter } from './ActivityFilter';
-import { ActivityList } from './ActivityList'
-import { ActivityPageCoral, ActivityPageDesign, ActivityPageScavenger, ActivityPageAsk } from './ActivityPage'
+import { ActivityList } from './ActivityList';
+import { IngredientsPage } from './Ingredients';
+import { ActivityPageCoral, ActivityPageDesign, ActivityPageScavenger, ActivityPageAsk } from './ActivityPage';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import { HashRouter, Routes, Route, Link} from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -31,6 +32,13 @@ function App() {
             </section>
           } />
 
+          <Route path="/Ingredients" element={
+            <div>
+              <NavBar />
+              <IngredientsPage />
+            </div>
+          } />
+
           <Route path="/Activity" element={
             <div>
               <NavBar />
@@ -48,20 +56,21 @@ function App() {
 
           <Route path="/Activity/ScavengerHunt" element={
             <div>
+              <NavBar />
               <ActivityPageScavenger />
             </div>
           } />
 
           <Route path="/Activity/DesignAnalyzeAI" element={
             <div>
-                <NavBar />
+              <NavBar />
               <ActivityPageDesign />
             </div>
           } />
 
           <Route path="/Activity/AskAI" element={
             <div>
-                <NavBar />
+              <NavBar />
               <ActivityPageAsk />
             </div>
           } />
